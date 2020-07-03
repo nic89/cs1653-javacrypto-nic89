@@ -8,11 +8,13 @@
 * ON THE TERMINAL :
 
 ** ON WINDOWS:
+
   5 - javac -cp .;bcprov-ext-jdk15on-165.jar Bouncy.java
   
   6 - java -cp .;bcprov-ext-jdk15on-165.jar Bouncy
   
-  ** ON UNIX/LINUX
+** ON UNIX/LINUX
+
   5 - javac -cp .:bcprov-ext-jdk15on-165.jar Bouncy.java
   
   6 - java -cp .:bcprov-ext-jdk15on-165.jar Bouncy
