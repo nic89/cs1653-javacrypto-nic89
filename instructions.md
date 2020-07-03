@@ -8,6 +8,9 @@
 4 - Add the Provider to the classpath - $JAVA_HOME/lib path
 
 * IN THE TERMINAL :
+
 5 - javac Bouncy.java
+
 6 - java Bouncy
+
 7 - type in string to encrypt + Enter
