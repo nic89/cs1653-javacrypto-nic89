@@ -5,12 +5,12 @@
 
 3 - copy JAR in the same folder as Bouncy.java
 
-4 - Add the Provider to the classpath - $JAVA_HOME/lib path
-
 * IN THE TERMINAL :
 
-5 - javac Bouncy.java
-
-6 - java Bouncy
-
-7 - type in string to encrypt + Enter
+** ON WINDOWS:
+  5 - javac -cp .;bcprov-ext-jdk15on-165.jar Bouncy.java
+  6 - java -cp .;bcprov-ext-jdk15on-165.jar Bouncy
+  
+  ** ON UNIX/LINUX
+  5 - javac -cp .:bcprov-ext-jdk15on-165.jar Bouncy.java
+  6 - java -cp .:bcprov-ext-jdk15on-165.jar Bouncy
